@@ -1,7 +1,7 @@
 # DanioVision
 Scripts for DanioVision Behavioural Analysis
 
-1) Compatibility of DanioVision data with FramebyFrame package
+1) Compatibility of DanioVision data with FramebyFrame (https://github.com/francoiskroll/FramebyFrame) package
 
 Example Script 1 Conversion DanioVision to ZebraBox 
 
