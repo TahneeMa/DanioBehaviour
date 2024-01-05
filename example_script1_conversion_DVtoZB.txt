@@ -1,7 +1,7 @@
 >all_tracks.txt  #creates a file
 for i in $(seq 1 96)  # loop in a sequence from 1 to 96, this variable will be named i
 do
-tail -n +39 Track-2022-08-31_MK2206_5uM_1-Trial\ \ \ \ \ 1-${i}-Subject\ 1.txt | \ # cleaning of input data
+tail -n +39 Track-DATE_NAME-Trial\ \ \ \ \ 1-${i}-Subject\ 1.txt | \ # cleaning of input data
    tr -d '\000' | cut -f 2,8 -d ";" | \ # selection of columns
    awk  -v ID=$i 'BEGIN {FS=";"};{print $1,$2*82.8075,ID}' OFS="\t" >> all_tracks.txt # reprinting modified columns plus ID column
 done
