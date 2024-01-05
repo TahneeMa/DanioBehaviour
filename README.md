@@ -1,4 +1,4 @@
-# DanioVision
+# DanioBehaviour
 Scripts for DanioVision Behavioural Analysis
 
 1) Compatibility of DanioVision data with FramebyFrame (https://github.com/francoiskroll/FramebyFrame) package
